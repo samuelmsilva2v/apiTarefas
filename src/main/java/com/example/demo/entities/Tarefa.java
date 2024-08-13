@@ -1,10 +1,12 @@
 package com.example.demo.entities;
 
+import java.util.Date;
+
 public class Tarefa {
 
 	private Integer id;
 	private String nome;
-	private String data;
+	private Date data;
 	private String descricao;
 	private Categoria categoria;
 
@@ -12,7 +14,7 @@ public class Tarefa {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Tarefa(Integer id, String nome, String data, String descricao, Categoria categoria) {
+	public Tarefa(Integer id, String nome, Date data, String descricao, Categoria categoria) {
 		super();
 		this.id = id;
 		this.nome = nome;
@@ -37,11 +39,11 @@ public class Tarefa {
 		this.nome = nome;
 	}
 
-	public String getData() {
+	public Date getData() {
 		return data;
 	}
 
-	public void setData(String data) {
+	public void setData(Date data) {
 		this.data = data;
 	}
 
