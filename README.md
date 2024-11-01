@@ -81,4 +81,14 @@ CREATE TABLE tarefa(
 
 DESC categoria;
 DESC tarefa;
-    
+```
+
+## API rodando integrada com o front-end
+![Cadastro de categoria](https://github.com/samuelmsilva2v/assets/blob/main/apiTarefas/Captura%20de%20tela%202024-10-31%20225229.png)
+![Consulta de categorias](https://github.com/samuelmsilva2v/assets/blob/main/apiTarefas/Captura%20de%20tela%202024-10-31%20225312.png)
+![Cadastro de tarefa](https://github.com/samuelmsilva2v/assets/blob/main/apiTarefas/Captura%20de%20tela%202024-10-31%20225329.png)
+![Consulta de tarefas](https://github.com/samuelmsilva2v/assets/blob/main/apiTarefas/Captura%20de%20tela%202024-10-31%20225420.png)
+<br>
+[Link para o repositório do front-end](https://github.com/samuelmsilva2v/webTarefas)
+
+
